@@ -17,6 +17,11 @@ body, .nav__menu{
     justify-content: center;
 }
 
+body{
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -36,7 +41,7 @@ header{
 
 .menu__items a:hover{
     padding: 0.313rem 0.625rem;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(255, 0, 0, 0.548);
     border-radius: 0.625rem;
     
 }
@@ -65,10 +70,21 @@ header{
 }
 
 .main__logo{
-    margin-top: 9.125rem;
+    margin-top: 7.7rem;
     position: absolute;
 }
 
 .main__logo__img{
     width: 500px;
+}
+
+/*==========================================*/
+
+.container{
+    width: 150vh;
+}
+
+section{
+    font-size: 30px;
+    font-weight: bolder;
 }
