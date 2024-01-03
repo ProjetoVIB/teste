@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: 'Vilaka';
-    src: url(../fonts/Vilaka\ Modern\ Serif\ Font.ttf) format(truetype);
+    src: url(../fonts/vilaka/Vilaka\ Modern\ Serif\ Font.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'Philosopher';
-    src: url(../fonts/Philosopher-Regular.ttf) format(truetype);
+    src: url(../fonts/philosopher/Philosopher-Regular.ttf) format(truetype);
 }
 
 :root{
