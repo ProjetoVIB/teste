@@ -7,5 +7,5 @@ function openMenu() {
         item.style.display = 'flex'
     }
 
-    item.style.backgroundColor = 'rgba(0, 0, 0, 0.568)'
+    item.style.backgroundColor = 'black'
 }

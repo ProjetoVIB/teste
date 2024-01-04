@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
 
-    
+
 
     .background__img {
         width: 320px;
@@ -8,74 +8,76 @@
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         margin-top: 25px;
+        padding-left: 10px;
+        padding-right: 9px;
         gap: 0px;
         height: 280px;
         align-items: normal;
     }
 
-    .menu__logo{
-        padding-left: 25px;
-    }
+    .menu__logo {}
 
-    .logo__img{
+    .logo__img {
         display: flex;
     }
 
-    .main__logo{
+    .main__logo {
         margin-top: 14rem;
     }
 
-    .main__logo__img{
+    .main__logo__img {
         width: 250px;
     }
 
-    .menu__items{
-        padding: 15px 25px;
+    .menu__items {
         width: 216px;
         text-align: left;
         flex-direction: column;
         gap: 15px;
     }
 
-    .menu__items > span{
+    .menu__items>span {
         border-bottom: 2px solid white;
     }
 
-    .item{
+    .item {
         background-color: aliceblue;
-        width: 193px;
+        width: 195px;
+        height: 225px;
+        border-radius: 5px;
         padding: 15px 25px;
         display: none;
         flex-direction: column;
         gap: 15px;
     }
 
-    .item > span{
+    .item>span {
+        width: 145px;
         border-bottom: 2px solid white;
     }
 
-    .menu__items a{
+    .menu__items a {
         font-size: 20px;
         text-align: center;
         padding: 0;
     }
 
-    .open__menu{
+    .open__menu {
         display: flex;
         justify-content: right;
     }
 
-    .menu__icon{
+    .menu__icon {
         width: 30px;
     }
 
-    .container{
+    .container {
         width: 320px;
     }
 
-    .content{
+    .content {
         width: 320px;
         margin: 0;
         padding: 0;
