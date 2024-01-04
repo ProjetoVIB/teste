@@ -112,7 +112,24 @@
     }
 
     .main__logo__img{
-        margin-top: 0px;
+        margin-top: -50px;
+        width: 400px;
+    }
+}
+
+@media (min-width: 1024px){
+    .background__img {
+        width: 1024px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .nav__menu{
+        gap: 600px;
+    }
+
+    .main__logo__img{
+        margin-top: -50px;
         width: 400px;
     }
 }
