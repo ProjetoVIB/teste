@@ -19,8 +19,12 @@
         display: flex;
     }
 
+    .main__logo{
+        margin-top: 7.7rem;
+    }
+
     .main__logo__img{
-        width: 320px;
+        width: 250px;
     }
 
     .menu__items{
