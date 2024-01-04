@@ -256,8 +256,15 @@
     .top__btn{
         margin-top: -80px;
         display: flex;
+        align-items: center;
         justify-content: right;
+        flex-direction: row;
+        gap: 20px;
         padding-right: 50px;
+    }
+
+    .top__btn > a{
+        color: white;
     }
 
     @media (max-width:720px) {
