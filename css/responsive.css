@@ -32,7 +32,7 @@
     }
 
     .menu__items {
-        width: 216px;
+        width: 201px;
         text-align: left;
         flex-direction: column;
         gap: 15px;
@@ -43,8 +43,7 @@
     }
 
     .item {
-        background-color: aliceblue;
-        width: 195px;
+        width: 201px;
         height: 225px;
         border-radius: 5px;
         padding: 15px 25px;
@@ -54,7 +53,7 @@
     }
 
     .item>span {
-        width: 145px;
+        width: 150px;
         border-bottom: 2px solid white;
     }
 
@@ -121,12 +120,25 @@
     }
 
     .nav__menu{
-        gap: 600px;
+        gap: 450px;
     }
 
     .main__logo__img{
         margin-top: -50px;
         width: 400px;
+    }
+
+    .open__menu{
+        display: none;
+    }
+
+    .item{
+        flex-direction: row;
+        height: 70px;
+    }
+
+    .menu__items > a{
+        width: 300px;
     }
 }
 
