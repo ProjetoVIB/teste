@@ -12,19 +12,28 @@
 
 <body>
     <header>
-        <img src="../img/background.jpg" alt="">
+        <img src="../img/background.jpg" alt="" class="background__img">
         <div class="main__logo">
             <img src="../img/main__logo.png" alt="" class="main__logo__img">
         </div>
         <nav class="nav__menu">
-            <div class="menu__logo"><a href="../index.html"><img src="../img/menu__logo.png" alt="Logo" class="logo__img"></a>
-            </div>
+            <a href="../index.html">
+                <div class="menu__logo">
+                    <img src="../img/menu__logo.png" alt="Logo" class="logo__img">
+                </div>
+            </a>
             <div class="menu__items">
-                <span><a href="../menu/sobre-nos.html">Sobre Nós</a></span>
-                <span><a href="#">Item#2</a></span>
-                <span><a href="#">Item#3</a></span>
-                <span><a href="#">Item#4</a></span>
-                <span><a href="#">Item#5</a></span>
+                <div class="open__menu" onclick="openMenu()">
+                    <img src="../img/menu__icon.png" alt="" class="menu__icon" id="menu__icon">
+                    <img src="../img/close__menu__icon.png" alt="" class="menu__icon__2" id="menu__icon__2">
+                </div>
+                <div class="item" id="item">
+                    <span><a href="../menu/sobre-nos.html">Sobre Nós</a></span>
+                    <span><a href="#">Item#2</a></span>
+                    <span><a href="#">Item#3</a></span>
+                    <span><a href="#">Item#4</a></span>
+                    <span><a href="#">Item#5</a></span>
+                </div>
             </div>
         </nav>
     </header>
@@ -32,14 +41,20 @@
         <div class="container">
             <section>
                 <h1>Sobre Nós:</h1>
-                    <div class="content">
-                        <p>Vôlei para Iniciantes e Desenvolvimento de Atletas. é uma iniciativa voltada para a promoção e desenvolvimento de novos atletas no voleibol.</p>
-                        <p>Com o objetivo de incentivar a prática do esporte desde a infância e formar uma nova geração de talentos, o projeto oferece treinamentos e atividades lúdicas para crianças e adolescentes de diversas comunidades.</p>
-                        <p>Além disso, o VIB também busca promover valores como trabalho em equipe, respeito e disciplina, utilizando o voleibol como ferramenta para o desenvolvimento físico mental e social dos participantes.</p>
-                    </div>
+                <div class="content">
+                    <p>Vôlei para Iniciantes e Desenvolvimento de Atletas. é uma iniciativa voltada para a promoção e
+                        desenvolvimento de novos atletas no voleibol.</p>
+                    <p>Com o objetivo de incentivar a prática do esporte desde a infância e formar uma nova geração de
+                        talentos, o projeto oferece treinamentos e atividades lúdicas para crianças e adolescentes de
+                        diversas comunidades.</p>
+                    <p>Além disso, o VIB também busca promover valores como trabalho em equipe, respeito e disciplina,
+                        utilizando o voleibol como ferramenta para o desenvolvimento físico mental e social dos
+                        participantes.</p>
+                </div>
             </section>
         </div>
     </main>
 </body>
+<script src="js/script.js"></script>
 
 </html>
