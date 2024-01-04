@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 @font-face {
@@ -13,7 +12,17 @@
 
 @font-face {
     font-family: 'Zillah';
-    src: url(../fonts/zillah/ZILLM___.ttf);
+    src: url(../fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 :root {
@@ -62,6 +71,14 @@ header {
     width: 100%;
     height: 6.25rem;
     position: absolute;
+    animation: fade 2s;
+}
+
+.item>span {
+    font-family: var(--font-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu__logo {
@@ -77,6 +94,7 @@ header {
 .main__logo {
     margin-top: 7.7rem;
     position: absolute;
+    animation: fade 2s;
 }
 
 .main__logo__img {
@@ -120,4 +138,10 @@ section>h1{
 
 iframe{
     width: 100%;
+}
+
+.row>p:last-of-type{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
 }
