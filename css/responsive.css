@@ -10,14 +10,14 @@
 
     .background__img {
         width: 100%;
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        margin-top: 25px;
-        padding-left: 10px;
-        padding-right: 9px;
+        margin-top: 1.563rem;
+        padding-left: 0.625rem;
+        padding-right: 0.563rem;
         gap: 0px;
         align-items: normal;
     }
@@ -33,37 +33,37 @@
     }
 
     .main__logo__img {
-        width: 250px;
+        width: 15.625rem;
     }
 
     .menu__items {
-        width: 201px;
+        width: 12.563rem;
         text-align: left;
         flex-direction: column;
-        gap: 15px;
+        gap: 0.938rem;
     }
 
     .menu__items>span {
-        border-bottom: 2px solid white;
+        border-bottom: 0.125rem solid white;
     }
 
     .item {
-        width: 201px;
-        height: 225px;
-        border-radius: 5px;
-        padding: 15px 25px;
+        width: 12.563rem;
+        height: 21.563rem;
+        border-radius: 0.313rem;
+        padding: 0.938rem 1.563rem;
         display: none;
         flex-direction: column;
-        gap: 15px;
+        gap: 0.938rem;
     }
 
     .item>span {
-        width: 150px;
-        border-bottom: 2px solid white;
+        width: 9.375rem;
+        border-bottom: 0.125rem solid white;
     }
 
     .menu__items a {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: center;
         padding: 0;
     }
@@ -75,7 +75,7 @@
 
     .menu__icon,
     .menu__icon__2 {
-        width: 30px;
+        width: 1.875rem;
     }
 
     .menu__icon__2 {
@@ -87,14 +87,14 @@
     }
 
     section>h1 {
-        font-size: 35px;
+        font-size: 30.313rem;
     }
 
     .content {
-        font-size: 20px;
+        font-size: 1.25rem;
         width: 100%;
         margin: 0;
-        padding: 0 100px 30px 100px;
+        padding: 0 6.25rem 1.875rem 6.25rem;
     }
 
     footer {
@@ -104,9 +104,9 @@
     .footer {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 0.625rem;
         background: #000;
-        padding: 30px 0px;
+        padding: 1.875rem 0px;
         font-family: 'Play', sans-serif;
         text-align: center;
     }
@@ -114,13 +114,13 @@
     .row:first-of-type {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .row:last-of-type {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .row>p {
@@ -131,14 +131,14 @@
     .row>ul>li {
         display: flex;
         flex-direction: row;
-        width: 150px;
+        width: 9.375rem;
     }
 
     .midias {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 50px;
+        gap: 3.125rem;
     }
 
     .footer .row {
@@ -165,7 +165,7 @@
 
     .footer .row ul li {
         display: inline-block;
-        margin: 0px 30px;
+        margin: 0px 1.875rem;
     }
 
     .footer .row a i {
@@ -178,11 +178,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .btn__img {
-        width: 20px;
+        width: 1.25rem;
     }
 
     .top__btn>a {
@@ -197,7 +197,7 @@
 
         .footer .row ul li {
             display: block;
-            margin: 10px 0px;
+            margin: 0.625rem 0px;
             text-align: center;
         }
 
@@ -207,34 +207,34 @@
     }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 370.313rem) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 50px;
+        gap: 3.125rem;
     }
 
     section>h1 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .content {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 0;
     }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 41.563rem) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 100px;
+        gap: 6.25rem;
     }
 
     .content {
@@ -244,17 +244,17 @@
 
 @media (min-width: 768px) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 400px;
+        gap: 25rem;
     }
 
     .main__logo__img {
-        margin-top: -50px;
-        width: 400px;
+        margin-top: -3.125rem;
+        width: 25rem;
     }
 
     .content {
@@ -264,17 +264,17 @@
 
 @media (min-width: 1024px) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 350px;
+        gap: 33.125rem;
     }
 
     .main__logo__img {
-        margin-top: -35px;
-        width: 400px;
+        margin-top: -30.313rem;
+        width: 25rem;
     }
 
     .open__menu {
@@ -286,18 +286,18 @@
     }
 
     .item {
-        width: 466px;
+        width: 29.125rem;
         display: flex;
         flex-direction: row;
-        height: 70px;
+        height: 4.375rem;
     }
 
     .menu__items {
-        width: 466px;
+        width: 29.125rem;
     }
 
     .menu__items>a {
-        width: 2300px;
+        width: 143.75rem;
     }
 
     .menu__items>span {
@@ -315,16 +315,16 @@
 
 @media (min-width: 1440px) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 700px;
+        gap: 43.75rem;
     }
 
     .main__logo__img {
-        width: 400px;
+        width: 25rem;
     }
 
     .content {
@@ -336,17 +336,17 @@
 
 @media (min-width: 2560px) {
     .background__img {
-        height: 400px;
+        height: 25rem;
         object-fit: cover;
     }
 
     .nav__menu {
-        gap: 1770px;
+        gap: 110.625rem;
     }
 
     .main__logo__img {
-        margin-top: -50px;
-        width: 400px;
+        margin-top: -3.125rem;
+        width: 25rem;
     }
 
     .content {
