@@ -1,4 +1,4 @@
-@media (min-width: 320px) 
+@media (min-width: 320px) {
 
     html {
         scroll-behavior: smooth;
@@ -96,7 +96,7 @@
         margin: 0;
     }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 
@@ -230,6 +230,7 @@
     }
 }
 
+
 @media (min-width: 425px) {
     .background__img {
         height: 25rem;
@@ -264,7 +265,7 @@
         margin: 0;
     }
 
-    iframe{
+    iframe {
         width: 75%;
     }
 }
