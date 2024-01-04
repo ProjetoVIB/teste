@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,33 +15,34 @@
     src: url(../fonts/zillah/ZILLM___.ttf);
 }
 
-:root{
+:root {
     --font-1: 'Vilaka';
     --font-2: 'Zillah';
 }
 
-body, .nav__menu{
+body,
+.nav__menu {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-body{
+body {
     flex-direction: column;
     gap: 3.125rem;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
 }
 
-.menu__items{
+.menu__items {
     display: flex;
     gap: 1.875rem;
 }
 
-.menu__items a{
+.menu__items a {
     font-family: var(--font-1);
     padding: 0.313rem 0.625rem;
     font-size: 1.6rem;
@@ -49,67 +50,72 @@ header{
     color: white;
 }
 
-.menu__items a:hover{
+.menu__items a:hover {
     padding: 0.313rem 0.625rem;
     background-color: rgba(255, 0, 0, 0.548);
     border-radius: 0.625rem;
-    
+
 }
 
-header{
+header {
     flex-direction: column;
     width: 100%;
     height: 22.813rem;
 }
 
-.nav__menu{
+.nav__menu {
     gap: 32.5rem;
     width: 100%;
     height: 6.25rem;
     position: absolute;
 }
 
-.menu__logo{
+.menu__logo {
     display: flex;
     justify-content: left;
 }
 
-.logo__img{
+.logo__img {
     width: 6.25rem;
 
 }
 
-.main__logo{
+.main__logo {
     margin-top: 7.7rem;
     position: absolute;
 }
 
-.main__logo__img{
-    width: 500px;
+.main__logo__img {
+    width: 31.25rem;
 }
 
 /*==========================================*/
 
-.container{
+.container {
     width: 200vh;
 }
 
-section{
-    background-color: rgba(255, 0, 0, 0.514);
-    border-radius: 5px;
+section {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 0.313rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    font-size: 30px;
+    font-size: 40px;
     font-family: var(--font-2);
     font-weight: 500;
 }
 
-section >h1, .content{
+section>h1{
+    padding: 1.875rem 1.875rem 0 1.875rem;
+}
+
+.content {
     text-align: justify;
     text-indent: 0.5em;
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    padding: 10px 20px;
+    padding: 0 1.875rem 1.875rem 1.875rem;
 }
