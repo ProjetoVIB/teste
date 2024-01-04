@@ -15,12 +15,16 @@
         align-items: normal;
     }
 
+    .menu__logo{
+        padding-left: 25px;
+    }
+
     .logo__img{
         display: flex;
     }
 
     .main__logo{
-        margin-top: 7.7rem;
+        margin-top: 14rem;
     }
 
     .main__logo__img{
