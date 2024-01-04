@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+@media (min-width: 320px) 
 
     html {
         scroll-behavior: smooth;
@@ -83,7 +83,7 @@
     }
 
     .container {
-        width: 320px;
+        width: 100%;
     }
 
     section>h1 {
@@ -224,10 +224,6 @@
         font-size: 30px;
     }
 
-    .container{
-        width: 375px;
-    }
-
     .content {
         font-size: 1.25rem;
         margin: 0;
@@ -242,10 +238,6 @@
 
     .nav__menu {
         gap: 6.25rem;
-    }
-
-    .container{
-        width: 425px;
     }
 
     .content {
@@ -266,10 +258,6 @@
     .main__logo__img {
         margin-top: -50px;
         width: 25rem;
-    }
-
-    .container{
-        width: 768px;
     }
 
     .content {
@@ -327,10 +315,6 @@
         border-bottom: none;
     }
 
-    .container{
-        width: 1024px;
-    }
-
     .content {
         margin: 0;
     }
@@ -348,10 +332,6 @@
 
     .main__logo__img {
         width: 25rem;
-    }
-
-    .container{
-        width: 1440px;
     }
 
     .content {
@@ -374,10 +354,6 @@
     .main__logo__img {
         margin-top: -50px;
         width: 25rem;
-    }
-
-    .container{
-        width: 2530px;
     }
 
     .content {
