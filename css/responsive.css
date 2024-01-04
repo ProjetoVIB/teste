@@ -70,8 +70,12 @@
         justify-content: right;
     }
 
-    .menu__icon {
+    .menu__icon, .menu__icon__2 {
         width: 30px;
+    }
+
+    .menu__icon__2{
+        display: none;
     }
 
     .container {
