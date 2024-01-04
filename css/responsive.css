@@ -1,6 +1,8 @@
 @media (min-width: 320px) {
 
-
+    main{
+        width: 100%;
+    }
 
     .background__img {
         width: 100%;
@@ -73,13 +75,18 @@
     }
 
     .container {
-        width: 320px;
+        width: 100%;
+    }
+
+    section > h1{
+        font-size: 35px;
     }
 
     .content {
+        font-size: 20px;
         width: 320px;
         margin: 0;
-        padding: 0;
+        padding: 0 30px 30px 30px;
     }
 }
 
@@ -92,6 +99,16 @@
     .nav__menu{
         gap: 50px;
     }
+
+    section > h1{
+        font-size: 30px;
+    }
+
+    .content {
+        font-size: 20px;
+        width: 375px;
+        margin: 0;
+    }
 }
 
 @media (min-width: 425px){
@@ -102,6 +119,11 @@
 
     .nav__menu{
         gap: 100px;
+    }
+
+    .content {
+        width: 425px;
+        margin: 0;
     }
 }
 
@@ -118,6 +140,11 @@
     .main__logo__img{
         margin-top: -50px;
         width: 400px;
+    }
+
+    .content {
+        width: 768px;
+        margin: 0;
     }
 }
 
@@ -166,6 +193,11 @@
     .menu__items>span {
         border-bottom: none;
     }
+
+    .content {
+        width: 1024px;
+        margin: 0;
+    }
 }
 
 @media (min-width: 1440px){
@@ -182,6 +214,11 @@
         margin-top: -50px;
         width: 400px;
     }
+
+    .content {
+        width: 1440px;
+        margin: 0;
+    }
 }
 
 @media (min-width: 2560px){
@@ -197,5 +234,10 @@
     .main__logo__img{
         margin-top: -50px;
         width: 400px;
+    }
+
+    .content {
+        width: 2560px;
+        margin: 0;
     }
 }
