@@ -101,6 +101,7 @@ section {
 }
 
 section>h1{
+    text-align: center;
     padding: 1.875rem 6.25rem 0 6.25rem;
 }
 
@@ -108,9 +109,10 @@ section>h1{
     text-align: justify;
     text-indent: 0.5em;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 0.7rem;
-    padding: 0 1.875rem 1.875rem 1.875rem;
 }
 
 iframe{
