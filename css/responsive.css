@@ -1,6 +1,10 @@
 @media (min-width: 320px) {
 
-    main{
+    html {
+        scroll-behavior: smooth;
+      }
+
+    main {
         width: 100%;
     }
 
@@ -70,11 +74,12 @@
         justify-content: right;
     }
 
-    .menu__icon, .menu__icon__2 {
+    .menu__icon,
+    .menu__icon__2 {
         width: 30px;
     }
 
-    .menu__icon__2{
+    .menu__icon__2 {
         display: none;
     }
 
@@ -82,7 +87,7 @@
         width: 100%;
     }
 
-    section > h1{
+    section>h1 {
         font-size: 35px;
     }
 
@@ -94,17 +99,17 @@
     }
 }
 
-@media (min-width: 375px){
+@media (min-width: 375px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 50px;
     }
 
-    section > h1{
+    section>h1 {
         font-size: 30px;
     }
 
@@ -115,13 +120,13 @@
     }
 }
 
-@media (min-width: 425px){
+@media (min-width: 425px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 100px;
     }
 
@@ -131,17 +136,17 @@
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 400px;
     }
 
-    .main__logo__img{
+    .main__logo__img {
         margin-top: -50px;
         width: 400px;
     }
@@ -152,41 +157,41 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 350px;
     }
 
-    .main__logo__img{
+    .main__logo__img {
         margin-top: -50px;
         width: 400px;
     }
 
-    .open__menu{
+    .open__menu {
         display: none;
     }
 
-    .item > span{
+    .item>span {
         text-align: center;
     }
 
-    .item{
+    .item {
         width: 466px;
         display: flex;
         flex-direction: row;
         height: 70px;
     }
 
-    .menu__items{
+    .menu__items {
         width: 466px;
     }
 
-    .menu__items > a{
+    .menu__items>a {
         width: 2300px;
     }
 
@@ -202,19 +207,88 @@
         width: 1024px;
         margin: 0;
     }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer {
+        background: #000;
+        padding: 30px 0px;
+        font-family: 'Play', sans-serif;
+        text-align: center;
+    }
+
+    .row {
+        margin: 40px;
+    }
+
+    .footer .row {
+        width: 100%;
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .footer .row a {
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+    }
+
+    .footer .row a:hover {
+        color: #fff;
+    }
+
+    .footer .row ul {
+        width: 100%;
+    }
+
+    .footer .row ul li {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+
+    .footer .row a i {
+        font-size: 2em;
+        margin: 0% 1%;
+    }
+
+    .top__btn{
+        margin-top: -80px;
+        display: flex;
+        justify-content: right;
+        padding-right: 50px;
+    }
+
+    @media (max-width:720px) {
+        .footer {
+            text-align: left;
+            padding: 5%;
+        }
+
+        .footer .row ul li {
+            display: block;
+            margin: 10px 0px;
+            text-align: left;
+        }
+
+        .footer .row a i {
+            margin: 0% 3%;
+        }
+    }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 700px;
     }
 
-    .main__logo__img{
+    .main__logo__img {
         margin-top: -50px;
         width: 400px;
     }
@@ -225,17 +299,17 @@
     }
 }
 
-@media (min-width: 2560px){
+@media (min-width: 2560px) {
     .background__img {
         height: 400px;
         object-fit: cover;
     }
 
-    .nav__menu{
+    .nav__menu {
         gap: 1770px;
     }
 
-    .main__logo__img{
+    .main__logo__img {
         margin-top: -50px;
         width: 400px;
     }
