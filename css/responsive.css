@@ -161,6 +161,7 @@
     .footer .row ul {
         width: 100%;
         display: flex;
+        justify-content: center;
     }
 
     .footer .row ul li {
