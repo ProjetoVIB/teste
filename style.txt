@@ -86,8 +86,7 @@ section>h1,
 .row:last-of-type,
 .row__links:last-of-type,
 .row>ul>li,
-.row__links>ul>li,
-.footer__links {
+.row__links>ul>li, .footer__links {
     display: flex;
 }
 
@@ -156,15 +155,8 @@ header {
     color: white;
 }
 
-.open__menu:hover {
-    cursor: pointer;
-}
-
 .item>span {
     font-family: var(--font-2);
-    border-radius: 10px;
-    cursor: pointer;
-
 }
 
 /*===========Configs do Container===========*/
