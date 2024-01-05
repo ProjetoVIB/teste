@@ -245,6 +245,14 @@ iframe {
     width: 100%;
 }
 
+/*===========Links===========*/
+
+.sublist {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 15px;
+}
+
 /*===========Configs do Footer===========*/
 
 footer {

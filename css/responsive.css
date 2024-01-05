@@ -136,12 +136,6 @@
         color: red;
     }
 
-    .sublist {
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 35px;
-    }
-
     iframe {
         display: none;
         width: 95%;
