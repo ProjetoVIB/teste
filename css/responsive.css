@@ -62,7 +62,7 @@
         border-bottom: 1px solid white;
     }
 
-    .item>span:first-of-type{
+    .item>span:first-of-type {
         border-top: 1px solid white;
     }
 
@@ -103,7 +103,7 @@
         width: 100%;
     }
 
-    .title>h1{
+    .title>h1 {
         padding: 0 10px;
     }
 
@@ -113,7 +113,7 @@
         padding: 0 10px;
     }
 
-    .map{
+    .map {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -137,6 +137,11 @@
         padding: 30px 0px;
         font-family: 'Play', sans-serif;
         text-align: center;
+        box-shadow: 0.5px 0.5px 10px red;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 1px solid red;
+        
     }
 
     .row:first-of-type {
@@ -201,7 +206,8 @@
         margin: 0% 1%;
     }
 
-    .youtube__icon:hover, .instagram__icon:hover{
+    .youtube__icon:hover,
+    .instagram__icon:hover {
         transform: scale(1.1);
     }
 
@@ -285,14 +291,14 @@
         gap: 25rem;
     }
 
-    .item>span:hover{
-        background-color: rgba(255, 0, 0, 0.815);
-        box-shadow: 0.5px 0.5px 20px red;
+    .item>span:hover {
+        background-color: rgba(163, 0, 0, 0.781);
+        box-shadow: 0px 0px 55px rgba(173, 0, 0, 0.733);
         border-radius: 10px;
         cursor: pointer;
     }
 
-    .item>span:nth-child(3){
+    .item>span:nth-child(3) {
         padding: 0 5px;
     }
 
@@ -326,15 +332,18 @@
         gap: 100px;
     }
 
-    .item, .item>span:first-of-type, .menu__items>span, .item>span{
+    .item,
+    .item>span:first-of-type,
+    .menu__items>span,
+    .item>span {
         border: none;
     }
 
-    .menu__items span{
+    .menu__items span {
         width: 100px;
     }
 
-    .menu__items a{
+    .menu__items a {
         font-size: 14px;
     }
 
@@ -387,7 +396,7 @@
         padding: 0 80px;
     }
 
-    .home__page{
+    .home__page {
         margin-left: -180px;
     }
 }
@@ -411,11 +420,11 @@
 
     }
 
-    .home__page{
+    .home__page {
         margin-left: -170px;
     }
 
-    .item{
+    .item {
         width: 793px;
     }
 
@@ -440,7 +449,7 @@
         margin: 0;
     }
 
-    .item{
+    .item {
         width: 768px;
     }
 }

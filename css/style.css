@@ -116,8 +116,6 @@ section {
     color: white;
     background-color: black;
     border-radius: 0.313rem;
-    border: 0.2px ridge red;
-    box-shadow: 0.5px 0.5px 20px red;
     display: flex;
     flex-direction: column;
     gap: 1rem;
