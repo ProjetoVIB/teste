@@ -117,6 +117,7 @@
     }
 
     .content__2>ol, .content__2>ul{
+        width: 80%;
         padding: 0 10px;
     }
 
