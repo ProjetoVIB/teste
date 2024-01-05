@@ -324,9 +324,9 @@
 
     .nav__menu {
         gap: 100px;
-    }   
+    }
 
-    .menu__items>span, .item>span{
+    .item, .item>span:first-of-type, .menu__items>span, .item>span{
         border: none;
     }
 
