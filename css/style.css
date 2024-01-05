@@ -40,18 +40,32 @@
 /*===========Unificação de Propriedades===========*/
 
 body,
-.nav__menu {
+.nav__menu,
+.content,
+.content__2,
+.item>span,
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo,
+.menu__items,
+section,
+section>h1,
+.row>p:last-of-type {
+    display: flex;
+}
+
 .content,
 .content__2 {
     text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 2rem;
 }
@@ -65,11 +79,6 @@ body {
 }
 
 /*===========Configs do Header===========*/
-
-header {
-    display: flex;
-    align-items: center;
-}
 
 header {
     flex-direction: column;
@@ -98,7 +107,6 @@ header {
 }
 
 .menu__logo {
-    display: flex;
     justify-content: left;
 }
 
@@ -107,7 +115,6 @@ header {
 }
 
 .menu__items {
-    display: flex;
     gap: 1.875rem;
 }
 
@@ -119,17 +126,11 @@ header {
 
 .item>span {
     font-family: var(--font-2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*===========Configs do Container===========*/
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
 }
 
@@ -139,7 +140,6 @@ section {
     color: white;
     background-color: black;
     border-radius: 0.313rem;
-    display: flex;
     flex-direction: column;
     gap: 1rem;
     font-size: 2.5rem;
@@ -150,7 +150,6 @@ section {
 }
 
 section>h1 {
-    display: flex;
     text-align: center;
     padding: 1.875rem 6.25rem 0 6.25rem;
 }
@@ -202,7 +201,6 @@ iframe {
 /*============================================*/
 
 .row>p:last-of-type {
-    display: flex;
     flex-direction: row;
     gap: 2px;
 }
