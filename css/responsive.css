@@ -107,10 +107,35 @@
         padding: 0 10px;
     }
 
+    .content>ul, .content>ol{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+        padding: 0 80px;
+    }
+
     .content>p,
-    .content>li {
+    .content>li,
+    .content>span,
+    .content>a {
         font-size: 16px;
         padding: 0 10px;
+    }
+
+    .list__title{
+        font-size: 20px;
+    }
+
+    #link{
+        color: red;
+    }
+
+    .sublist{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 50px;
     }
 
     .map {
@@ -313,7 +338,9 @@
 
     .title>h1,
     .content>p,
-    .content>li {
+    .content>li,
+    .content>span,
+    .content>a  {
         padding: 0 60px;
     }
 
