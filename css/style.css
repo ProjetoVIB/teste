@@ -205,6 +205,13 @@ section>h1 {
     font-weight: bolder;
 }
 
+.main__container__links>.container>section>div>ol:first-of-type {
+    font-size: 10px;
+    width: 85%;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .list__title {
     color: rgba(0, 0, 0, 0.87);
     font-size: 20px;

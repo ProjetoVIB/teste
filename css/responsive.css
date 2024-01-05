@@ -126,12 +126,6 @@
         padding: 0 10px;
     }
 
-    .main__container__links>.container>section>div>ol:first-of-type {
-        width: 85%;
-        flex-direction: column;
-        gap: 20px;
-    }
-
     #link {
         color: red;
     }
