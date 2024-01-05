@@ -42,7 +42,7 @@
 body,
 .nav__menu,
 .content,
-.content__2,
+.main__container__links>.container>section>div,
 .item>span,
 .container,
 .midias,
@@ -75,9 +75,9 @@ section>h1,
 .logo__img,
 .open__menu,
 .content>ul,
-.content__2>ul,
-.content__2>ol,
-.content__2>ol:first-of-type,
+.main__container__links>.container>section>div>ul,
+.main__container__links>.container>section>div>ol,
+.main__container__links>.container>section>div>ol:first-of-type,
 .sublist,
 .item,
 .footer,
@@ -92,7 +92,7 @@ section>h1,
 }
 
 .content,
-.content__2 {
+.main__container__links>.container>section>div {
     text-align: left;
     flex-direction: column;
     gap: 2rem;
@@ -195,11 +195,11 @@ section>h1 {
 
 /*===========Configs do Container Links===========*/
 
-.body__links {
+.container__links {
     background-color: rgba(196, 196, 196, 0.692);
 }
 
-.section__links {
+.main__container__links>.container>section {
     color: black;
     background-color: white;
     font-weight: bolder;
@@ -212,7 +212,7 @@ section>h1 {
 
 .list__title::marker,
 .sublist>li::marker,
-.content__2>ul>li::marker {
+.main__container__links>.container>section>div>ul>li::marker {
     color: rgba(255, 0, 0, 0.808);
 }
 

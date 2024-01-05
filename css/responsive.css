@@ -90,7 +90,7 @@
     }
 
     .content,
-    .content__2 {
+    .main__container__links>.container>section>div {
         font-size: 1.25rem;
         width: 100%;
     }
@@ -100,16 +100,16 @@
     }
 
     .content>ul,
-    .content__2>ul,
-    .content__2>ol {
+    .main__container__links>.container>section>div>ul,
+    .main__container__links>.container>section>div>ol {
         flex-direction: column;
         gap: 20px;
         font-size: 16px;
         padding: 0 80px;
     }
 
-    .content__2>ol,
-    .content__2>ul {
+    .main__container__links>.container>section>div>ol,
+    .main__container__links>.container>section>div>ul {
         width: 80%;
         padding: 0 10px;
     }
@@ -118,15 +118,15 @@
     .content>li,
     .content>span,
     .content>a,
-    .content__2>p,
-    .content__2>li,
-    .content__2>span,
-    .content__2>a {
+    .main__container__links>.container>section>div>p,
+    .main__container__links>.container>section>div>li,
+    .main__container__links>.container>section>div>span,
+    .main__container__links>.container>section>div>a {
         font-size: 16px;
         padding: 0 10px;
     }
 
-    .content__2>ol:first-of-type {
+    .main__container__links>.container>section>div>ol:first-of-type {
         width: 85%;
         flex-direction: column;
         gap: 20px;
@@ -233,10 +233,10 @@
     .content>li,
     .content>span,
     .content>a,
-    .content__2>p,
-    .content__2>li,
-    .content__2>span,
-    .content__2>a {
+    .main__container__links>.container>section>div>p,
+    .main__container__links>.container>section>div>li,
+    .main__container__links>.container>section>div>span,
+    .main__container__links>.container>section>div>a {
         padding: 0 60px;
     }
 
@@ -309,7 +309,7 @@
     }
 
     .content,
-    .content__2 {
+    .main__container__links>.container>section>div {
         text-align: left;
         margin: 0;
     }
@@ -317,8 +317,8 @@
     .title>h1,
     .content>p,
     .content>li,
-    .content__2>p,
-    .content__2>li {
+    .main__container__links>.container>section>div>p,
+    .main__container__links>.container>section>div>li {
         padding: 0 80px;
     }
 
@@ -342,7 +342,7 @@
     }
 
     .content,
-    .content__2 {
+    .main__container__links>.container>section>div {
         margin: 0;
 
     }
@@ -373,7 +373,7 @@
     }
 
     .content,
-    .content__2 {
+    .main__container__links>.container>section>div {
         margin: 0;
     }
 
