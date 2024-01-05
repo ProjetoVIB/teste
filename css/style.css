@@ -117,10 +117,15 @@ section {
     background-color: black;
     border-radius: 0.313rem;
     border: 0.2px ridge red;
+    box-shadow: 0.5px 0.5px 20px red;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     font-size: 2.5rem;
+}
+
+.title{
+    width: 100%;
 }
 
 section>h1{
@@ -150,7 +155,8 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: rgba(255, 0, 0, 0.829);
+    background-color: rgba(255, 0, 0, 0.568);
+    box-shadow: 0.5px 0.5px 20px red;
     transform: scale(1.1);
 }
 
