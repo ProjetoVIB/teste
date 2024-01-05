@@ -28,6 +28,7 @@
 :root {
     --font-1: 'Vilaka';
     --font-2: 'Zillah';
+    color: rgba(41, 41, 41, 0.781);
 }
 
 body,
@@ -38,7 +39,7 @@ body,
 }
 
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.911);
     flex-direction: column;
     gap: 3.125rem;
 }
@@ -113,6 +114,7 @@ section {
     font-family: var(--font-2);
     width: 95%;
     color: white;
+    background-color: black;
     border-radius: 0.313rem;
     border: 0.2px ridge red;
     display: flex;

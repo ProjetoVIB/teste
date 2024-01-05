@@ -21,5 +21,5 @@ function openMenu() {
         menu__icon.style.display = 'none'
     }
 
-    item.style.backgroundColor = 'black'
+    item.style.backgroundColor = 'rgba(41, 41, 41, 0.781)'
 }
