@@ -104,7 +104,15 @@
         padding: 0 10px;
     }
 
+    .map{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
     iframe {
+        display: none;
         width: 95%;
     }
 

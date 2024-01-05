@@ -1,5 +1,3 @@
-var span = document.getElementsByTagName('menu__items > span');
-
 function openMenu() {
     if (item.style.display == 'flex') {
         item.style.display = 'none'
@@ -22,4 +20,12 @@ function openMenu() {
     }
 
     item.style.backgroundColor = 'rgba(41, 41, 41, 0.781)'
+}
+
+function openMap() {
+    if (map.style.display == 'block') {
+        map.style.display = 'none'
+    } else {
+        map.style.display = 'block'
+    }
 }
