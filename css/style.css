@@ -122,6 +122,16 @@ section {
     font-size: 2.5rem;
 }
 
+.section__links{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.body__links{
+    background-color: rgba(196, 196, 196, 0.692);
+}
+
 .title{
     width: 100%;
 }
@@ -132,7 +142,7 @@ section>h1{
     padding: 1.875rem 6.25rem 0 6.25rem;
 }
 
-.content {
+.content, .content__2 {
     text-align: left;
     display: flex;
     align-items: center;
