@@ -5,6 +5,8 @@
     text-decoration: none;
 }
 
+/*===========Fontes===========*/
+
 @font-face {
     font-family: 'Vilaka';
     src: url(../fonts/vilaka/Vilaka\ Modern\ Serif\ Font.ttf) format(truetype);
@@ -15,21 +17,27 @@
     src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
 
+/*===========Fade-Out do Header===========*/
+
 @keyframes fade {
-    from{
+    from {
         opacity: 0;
     }
 
-    to{
+    to {
         opacity: 1;
     }
 }
+
+/*===========Variáveis===========*/
 
 :root {
     --font-1: 'Vilaka';
     --font-2: 'Zillah';
     color: rgba(41, 41, 41, 0.781);
 }
+
+/*===========Unificação de Propriedades===========*/
 
 body,
 .nav__menu {
@@ -38,15 +46,64 @@ body,
     justify-content: center;
 }
 
+.content,
+.content__2 {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*============================================*/
+
 body {
     background-color: rgba(0, 0, 0, 0.911);
     flex-direction: column;
     gap: 3.125rem;
 }
 
+/*===========Configs do Header===========*/
+
 header {
     display: flex;
     align-items: center;
+}
+
+header {
+    flex-direction: column;
+    width: 100%;
+    height: 22.813rem;
+}
+
+/*===========Configs do Menu===========*/
+
+.main__logo {
+    margin-top: 7.7rem;
+    position: absolute;
+    animation: fade 2s;
+}
+
+.main__logo__img {
+    width: 31.25rem;
+}
+
+.nav__menu {
+    gap: 32.5rem;
+    width: 100%;
+    height: 6.25rem;
+    position: absolute;
+    animation: fade 2s;
+}
+
+.menu__logo {
+    display: flex;
+    justify-content: left;
+}
+
+.logo__img {
+    width: 6.25rem;
 }
 
 .menu__items {
@@ -60,20 +117,6 @@ header {
     color: white;
 }
 
-header {
-    flex-direction: column;
-    width: 100%;
-    height: 22.813rem;
-}
-
-.nav__menu {
-    gap: 32.5rem;
-    width: 100%;
-    height: 6.25rem;
-    position: absolute;
-    animation: fade 2s;
-}
-
 .item>span {
     font-family: var(--font-2);
     display: flex;
@@ -81,27 +124,7 @@ header {
     justify-content: center;
 }
 
-.menu__logo {
-    display: flex;
-    justify-content: left;
-}
-
-.logo__img {
-    width: 6.25rem;
-
-}
-
-.main__logo {
-    margin-top: 7.7rem;
-    position: absolute;
-    animation: fade 2s;
-}
-
-.main__logo__img {
-    width: 31.25rem;
-}
-
-/*==========================================*/
+/*===========Configs do Container===========*/
 
 .container {
     display: flex;
@@ -122,36 +145,40 @@ section {
     font-size: 2.5rem;
 }
 
-.section__links{
-    color: black;
-    background-color: white;
-    font-weight: bolder;
-}
-
-.body__links{
-    background-color: rgba(196, 196, 196, 0.692);
-}
-
-.title{
+.title {
     width: 100%;
 }
 
-section>h1{
+section>h1 {
     display: flex;
     text-align: center;
     padding: 1.875rem 6.25rem 0 6.25rem;
 }
 
-.content, .content__2 {
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
+/*===========Configs do Container Links===========*/
+
+.body__links {
+    background-color: rgba(196, 196, 196, 0.692);
 }
 
-button{
+.section__links {
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.list__title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+}
+
+.list__title::marker {
+    color: rgba(255, 0, 0, 0.808);
+}
+
+/*===========Configs da Página da Localização===========*/
+
+button {
     font-family: var(--font-2);
     color: white;
     background-color: rgba(255, 0, 0, 0.404);
@@ -161,18 +188,20 @@ button{
     height: 50px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.568);
     box-shadow: 0.5px 0.5px 20px red;
     transform: scale(1.1);
 }
 
-iframe{
+iframe {
     width: 100%;
 }
 
-.row>p:last-of-type{
+/*============================================*/
+
+.row>p:last-of-type {
     display: flex;
     flex-direction: row;
     gap: 2px;
