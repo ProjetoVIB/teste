@@ -59,7 +59,15 @@ header {
 .menu__items,
 section,
 section>h1,
-.row>p:last-of-type {
+.row>p:last-of-type,
+.logo__img,
+.open__menu,
+.content>ul,
+.content__2>ul,
+.content__2>ol,
+.content__2>ol:first-of-type,
+.sublist,
+.item {
     display: flex;
 }
 
@@ -196,6 +204,13 @@ button:hover {
     background-color: rgba(255, 0, 0, 0.568);
     box-shadow: 0.5px 0.5px 20px red;
     transform: scale(1.1);
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
 }
 
 iframe {
