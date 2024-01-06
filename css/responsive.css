@@ -105,7 +105,6 @@
         flex-direction: column;
         gap: 20px;
         font-size: 16px;
-        padding: 0 80px;
     }
 
     .main__container__links>.container>section>div>ul {
@@ -309,6 +308,10 @@
 
     .home__page {
         margin-left: -180px;
+    }
+
+    .main__container__links>.container>section>div>ol {
+        padding: 0 80px;
     }
 }
 
