@@ -87,8 +87,14 @@ section>h1,
 .row__links:last-of-type,
 .row>ul>li,
 .row__links>ul>li,
-.footer__links {
+.footer__links, .home__btn {
     display: flex;
+}
+
+.home__btn{
+    width: 100%;
+    padding-right: 124px;
+    justify-content: right;
 }
 
 .content,
@@ -199,7 +205,12 @@ section>h1 {
     background-color: rgba(196, 196, 196, 0.692);
 }
 
+.main__container__links>.container{
+    padding: 30px 0;
+}
+
 .main__container__links>.container>section {
+    border: 10px solid black;
     color: black;
     background-color: white;
     font-weight: bolder;
@@ -208,6 +219,10 @@ section>h1 {
 .main__container__links>.container>section>div>h1,
 .main__container__links>.container>section>div>h3 {
     font-size: 20px;
+}
+
+.main__container__links>.container>section>div>ol{
+    padding: 0 80px;
 }
 
 .main__container__links>.container>section>div>ol:first-of-type, .main__container__links>.container>section>div>p, .main__container__links>.container>section>div>ul>li {
@@ -219,7 +234,7 @@ section>h1 {
 
 .list__title {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .list__title::marker,
@@ -228,12 +243,20 @@ section>h1 {
     color: rgba(255, 0, 0, 0.808);
 }
 
+#final__line{
+    text-align: right;
+}
+
+button>a{
+    color: white;
+}
+
 /*===========Configs do Botão do Mapa===========*/
 
 button {
     font-family: var(--font-2);
     color: white;
-    background-color: rgba(255, 0, 0, 0.404);
+    background-color: rgba(255, 0, 0, 0.932);
     border: none;
     border-radius: 10px;
     width: 100px;
@@ -242,7 +265,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: rgba(255, 0, 0, 0.568);
+    background-color: rgba(255, 0, 0, 0.918);
     box-shadow: 0.5px 0.5px 20px red;
     transform: scale(1.1);
 }
