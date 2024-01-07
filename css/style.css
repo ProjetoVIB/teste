@@ -40,13 +40,13 @@
 /*===========Configs da Scrollbar===========*/
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.625rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background: #b41616;
-    border: 1px solid rgb(255, 255, 255);
+    border: 0.063rem solid rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-track {
@@ -110,7 +110,7 @@ section>h1,
 
 .home__btn {
     width: 100%;
-    padding-right: 124px;
+    padding-right: 7.75rem;
     justify-content: right;
 }
 
@@ -185,7 +185,7 @@ header {
 
 .item>span {
     font-family: var(--font-2);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     cursor: pointer;
 
 }
@@ -197,7 +197,7 @@ header {
 }
 
 .content {
-    padding: 0 13px;
+    padding: 0 0.813rem;
 }
 
 section {
@@ -227,11 +227,11 @@ section>h1 {
 }
 
 .main__container__links>.container {
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 
 .main__container__links>.container>section {
-    border: 10px solid black;
+    border: 0.625rem solid black;
     color: black;
     background-color: white;
     font-weight: bolder;
@@ -239,25 +239,25 @@ section>h1 {
 
 .main__container__links>.container>section>div>h1,
 .main__container__links>.container>section>div>h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .main__container__links>.container>section>div>ol {
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 .main__container__links>.container>section>div>ol:first-of-type,
 .main__container__links>.container>section>div>p,
 .main__container__links>.container>section>div>ul>li {
-    font-size: 11px;
+    font-size: 0.688rem;
     width: 92%;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .list__title {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .list__title::marker,
@@ -277,7 +277,7 @@ section>h1 {
 .home__btn>button:hover {
     background-color: rgb(75, 75, 75);
 
-    box-shadow: 0.5px 0.5px 20px rgb(0, 0, 0);
+    box-shadow: 0.031rem 0.031rem 1.25rem rgb(0, 0, 0);
 }
 
 button>a {
@@ -291,15 +291,15 @@ button {
     color: white;
     background-color: rgba(255, 0, 0, 0.932);
     border: none;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
+    border-radius: 0.625rem;
+    width: 6.25rem;
+    height: 3.125rem;
 }
 
 button:hover {
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.918);
-    box-shadow: 0.5px 0.5px 20px red;
+    box-shadow: 0.031rem 0.031rem 1.25rem red;
     transform: scale(1.1);
 }
 
@@ -317,8 +317,8 @@ iframe {
 
 .sublist {
     flex-direction: column;
-    gap: 20px;
-    padding-left: 15px;
+    gap: 1.25rem;
+    padding-left: 0.938rem;
 }
 
 /*===========Configs do Footer===========*/
@@ -331,13 +331,13 @@ footer {
     flex-direction: column;
     gap: 0.625rem;
     background: black;
-    padding: 30px 0px;
+    padding: 1.875rem 0;
     font-family: 'Play', sans-serif;
     text-align: center;
-    box-shadow: 0.5px 0.5px 10px red;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border: 1px solid red;
+    box-shadow: 0.031rem 0.031rem 0.625rem red;
+    border-top-left-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+    border: 0.063rem solid red;
 
 }
 
@@ -345,13 +345,13 @@ footer {
     flex-direction: column;
     gap: 0.625rem;
     background: white;
-    padding: 30px 0px;
+    padding: 1.875rem 0;
     font-family: 'Play', sans-serif;
     text-align: center;
-    box-shadow: 0.5px 0.5px 10px red;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border: 1px solid red;
+    box-shadow: 0.031rem 0.031rem 0.625rem red;
+    border-top-left-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+    border: 0.063rem solid red;
 
 }
 
@@ -370,11 +370,11 @@ footer {
 .row>ul>li,
 .row__links>ul>li {
     flex-direction: row;
-    width: 150px;
+    width: 13.125rem;
 }
 
 .midias {
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .footer .row {
@@ -414,11 +414,11 @@ footer {
 .footer .row ul li,
 .footer__links .row__links ul li {
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0 1.875rem;
 }
 
 .row>ul {
-    gap: 5px;
+    gap: 0.313rem;
 }
 
 .footer .row a i,
@@ -452,5 +452,5 @@ footer {
 
 .row>p:last-of-type {
     flex-direction: row;
-    gap: 2px;
+    gap: 0.125rem;
 }
