@@ -187,6 +187,7 @@ header {
 }
 
 .item>span {
+    background-color: rgba(37, 37, 37, 0.726);
     font-family: var(--font-2);
     border-radius: 0.625rem;
     cursor: pointer;
