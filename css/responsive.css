@@ -131,6 +131,10 @@
         display: none;
         width: 95%;
     }
+
+    .footer .row{
+        font-size: 0.7rem;
+    }
 }
 
 @media (min-width: 375px) {
@@ -312,6 +316,10 @@
 
     .main__container__links>.container>section>div>ol {
         padding: 0 80px;
+    }
+
+    .footer .row{
+        font-size: 1rem;
     }
 }
 
