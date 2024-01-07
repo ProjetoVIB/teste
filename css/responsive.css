@@ -135,6 +135,10 @@
     .footer .row {
         font-size: 0.7rem;
     }
+
+    .links__btn{
+        gap: 1.25rem;
+    }
 }
 
 @media (min-width: 375px) {
@@ -155,6 +159,10 @@
         font-size: 1.25rem;
         margin: 0;
     }
+
+    .links__btn{
+        gap: 3.5rem;
+    }
 }
 
 @media (min-width: 425px) {
@@ -169,6 +177,10 @@
 
     .content {
         margin: 0;
+    }
+
+    .links__btn{
+        gap: 6.7rem;
     }
 }
 
@@ -229,6 +241,10 @@
 
     iframe {
         width: 85%;
+    }
+
+    .links__btn{
+        gap: 24.5rem;
     }
 }
 
@@ -320,6 +336,10 @@
     .footer .row {
         font-size: 1rem;
     }
+
+    .links__btn{
+        gap: 29rem;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -350,6 +370,10 @@
         width: 49.563rem;
     }
 
+    .links__btn{
+        gap: 52.5rem;
+    }
+
 }
 
 @media (min-width: 2560px) {
@@ -374,5 +398,9 @@
 
     .item {
         width: 48rem;
+    }
+
+    .links__btn{
+        gap: 111rem;
     }
 }

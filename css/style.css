@@ -68,7 +68,7 @@ body,
 .midias,
 .top__btn,
 .top__btn__links,
-.map {
+.map, .links__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +114,6 @@ section>h1,
 
 .home__btn {
     width: 100%;
-    padding-right: 7.75rem;
     justify-content: right;
 }
 
@@ -241,6 +240,10 @@ section>h1 {
     font-weight: bolder;
 }
 
+.main__container__links>.container>section>div>p{
+    text-align: center;
+}
+
 .main__container__links>.container>section>div>h1,
 .main__container__links>.container>section>div>h3 {
     font-size: 1.25rem;
@@ -272,6 +275,16 @@ section>h1 {
 
 #final__line {
     text-align: right;
+}
+
+.links__btn{
+    gap: 40rem;
+}
+
+.links__btn>.top__btn>a>p{
+    font-size: 1rem;
+    color: black;
+    width: 6.5rem;
 }
 
 .home__btn>button {
