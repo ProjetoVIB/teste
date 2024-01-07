@@ -37,6 +37,22 @@
     color: rgba(41, 41, 41, 0.781);
 }
 
+/*===========Configs da Scrollbar===========*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #b41616;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
 /*===========Unificação de Propriedades===========*/
 
 body,
@@ -180,7 +196,7 @@ header {
     width: 100%;
 }
 
-.content{
+.content {
     padding: 0 13px;
 }
 
@@ -401,7 +417,7 @@ footer {
     margin: 0px 30px;
 }
 
-.row>ul{
+.row>ul {
     gap: 5px;
 }
 
