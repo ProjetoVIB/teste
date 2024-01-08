@@ -81,7 +81,6 @@ header {
 }
 
 .row>p,
-.row__>p,
 .footer .row ul,
 .footer__links .row ul {
     display: flex;
@@ -452,6 +451,10 @@ footer {
 
 .row>ul {
     gap: 0.313rem;
+}
+
+.row>p{
+    text-align: center;
 }
 
 .footer .row a i,
