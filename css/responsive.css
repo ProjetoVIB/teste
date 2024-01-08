@@ -269,6 +269,10 @@
         font-size: 0.875rem;
     }
 
+    .item{
+        display: flex;
+    }
+
     .item,
     .item>span:first-of-type,
     .menu__items>span,
