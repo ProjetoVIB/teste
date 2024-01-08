@@ -126,7 +126,8 @@
         width: 95%;
     }
 
-    .footer .row {
+    .footer .row,
+    .footer__links .row__links {
         font-size: 0.7rem;
     }
 
@@ -181,20 +182,20 @@
 @media (max-width:720px) {
 
     .footer,
-    .footer__2 {
+    .footer__links {
         text-align: left;
         padding: 5%;
     }
 
     .footer .row ul li,
-    .footer__2 .row__2 ul li {
+    .footer__links .row__links ul li {
         display: block;
         margin: 0.625rem 0;
         text-align: center;
     }
 
     .footer .row a i,
-    .footer__2 .row__2 a i {
+    .footer__links .row__links a i {
         margin: 0% 3%;
     }
 }

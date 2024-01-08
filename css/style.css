@@ -83,7 +83,7 @@ header {
 .row>p,
 .row__links>p,
 .footer .row ul,
-.footer__links .row ul {
+.footer__links .row__links ul {
     display: flex;
     justify-content: center;
 }
@@ -441,7 +441,7 @@ footer {
 }
 
 .footer .row ul,
-.footer__links .row ul {
+.footer__links .row__links ul {
     width: 100%;
 }
 
@@ -451,7 +451,8 @@ footer {
     margin: 0 1.875rem;
 }
 
-.row>ul {
+.row>ul,
+.row__links>ul {
     gap: 0.313rem;
 }
 
