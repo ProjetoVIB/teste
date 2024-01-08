@@ -81,6 +81,7 @@ header {
 }
 
 .row>p,
+.row__links>p,
 .footer .row ul,
 .footer__links .row ul {
     display: flex;
@@ -91,7 +92,7 @@ header {
 .menu__items,
 section,
 section>h1,
-.row>p:last-of-type,
+.row__links>p:last-of-type,
 .logo__img,
 .open__menu,
 .content>ul,
@@ -132,6 +133,7 @@ section,
 .row>ul>li,
 .row__links>ul>li,
 .row>p:last-of-type,
+.row__links>p:last-of-type,
 .top__btn,
 .top__btn__links {
     flex-direction: row;
@@ -485,6 +487,7 @@ footer {
     color: black;
 }
 
-.row>p:last-of-type {
+.row>p:last-of-type,
+.row__links>p:last-of-type {
     gap: 0.125rem;
 }
