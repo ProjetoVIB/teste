@@ -127,13 +127,13 @@ section,
 .row:first-of-type,
 .row__links:first-of-type,
 .row:last-of-type,
-.row__links:last-of-type,
-.row>p:last-of-type {
+.row__links:last-of-type {
     flex-direction: column;
 }
 
 .row>ul>li,
 .row__links>ul>li,
+.row>p:last-of-type,
 .top__btn,
 .top__btn__links {
     flex-direction: row;
