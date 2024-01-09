@@ -467,9 +467,23 @@ footer {
     margin: 0% 1%;
 }
 
+.youtube__icon,
+.instagram__icon {
+    width: 2.5rem;
+}
+
 .youtube__icon:hover,
 .instagram__icon:hover {
     transform: scale(1.1);
+}
+
+.top__btn {
+    justify-content: right;
+}
+
+.top__btn>a:hover {
+    color: #c90000;
+    transition: 0.5s;
 }
 
 .top__btn,

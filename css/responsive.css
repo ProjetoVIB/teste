@@ -131,15 +131,11 @@
         font-size: 0.7rem;
     }
 
-    .links__btn {
-        gap: 1.25rem;
-    }
-
     .top__btn {
         font-size: 0.8rem;
     }
 
-    .btn__img{
+    .btn__img {
         width: 0.8rem;
     }
 }
@@ -246,6 +242,10 @@
         width: 85%;
     }
 
+    .top__btn {
+        padding-right: 1.25rem;
+    }
+
     .links__btn {
         gap: 24.5rem;
     }
@@ -349,11 +349,15 @@
         font-size: 1rem;
     }
 
+    .top__btn {
+        padding-right: 2.5rem;
+    }
+
     .top__btn>a {
         font-size: 1rem;
     }
 
-    .btn__img{
+    .btn__img {
         width: 1rem;
     }
 
