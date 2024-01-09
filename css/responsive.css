@@ -134,6 +134,14 @@
     .links__btn {
         gap: 1.25rem;
     }
+
+    .top__btn {
+        font-size: 0.8rem;
+    }
+
+    .btn__img{
+        width: 0.8rem;
+    }
 }
 
 @media (min-width: 375px) {
@@ -242,7 +250,7 @@
         gap: 24.5rem;
     }
 
-    .row__links:nth-child(2)>ul{
+    .row__links:nth-child(2)>ul {
         display: flex;
     }
 }
@@ -339,6 +347,14 @@
     .footer .row,
     .footer__links .row__links {
         font-size: 1rem;
+    }
+
+    .top__btn>a {
+        font-size: 1rem;
+    }
+
+    .btn__img{
+        width: 1rem;
     }
 
     .links__btn {
