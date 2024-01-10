@@ -449,7 +449,8 @@ footer {
 }
 
 .footer .row a:hover,
-.footer__links .row__links a:hover {
+.footer__links .row__links a:hover,
+.top__btn>a>p:hover {
     color: #c90000;
 }
 
