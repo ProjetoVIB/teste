@@ -209,6 +209,10 @@
     .footer__links .row__links a i {
         margin: 0% 3%;
     }
+
+    .row:last-of-type>a {
+        width: 95%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -249,7 +253,7 @@
         width: 85%;
     }
 
-    .row:last-of-type>a{
+    .row:last-of-type>a {
         width: 95%;
         margin-top: -2.4rem;
     }
