@@ -133,7 +133,16 @@
 
     .footer .row ul,
     .footer__links .row__links ul {
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .footer .row ul li,
+    .footer__links .row__links ul li {
+        width: 0rem;
+    }
+
+    .row>ul, .row__links>ul{
+        gap: 0rem;
     }
 
     .top__btn {
@@ -168,6 +177,10 @@
         gap: 1.8rem;
     }
 
+    .footer .row ul, .footer__links .row__links ul{
+        gap: 1rem;
+    }
+
     .links__btn {
         gap: 3.5rem;
     }
@@ -191,6 +204,10 @@
         gap: 2.3rem;
     }
 
+    .footer .row ul, .footer__links .row__links ul{
+        gap: 1.5rem;
+    }
+
     .links__btn {
         gap: 6.7rem;
     }
@@ -206,7 +223,8 @@
 
     .footer .row ul li,
     .footer__links .row__links ul li {
-        display: block;
+        width: 100%;
+        display: flex;
         margin: 0.625rem 0;
         text-align: center;
     }

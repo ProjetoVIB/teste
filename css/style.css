@@ -73,7 +73,9 @@ body,
 .btn__img,
 .final__row,
 .footer .row ul,
-.footer__links .row__links ul {
+.footer__links .row__links ul,
+.footer .row ul li,
+.footer__links .row__links ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,7 +456,7 @@ footer {
 
 .footer .row ul li,
 .footer__links .row__links ul li {
-    display: inline-block;
+    display: flex;
     margin: 0 1.875rem;
 }
 
