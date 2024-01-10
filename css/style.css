@@ -112,6 +112,8 @@ section>h1,
 .footer__links,
 .home__btn,
 .row__owner,
+.row__owner>p,
+.row__owner>a,
 .final__row>a {
     display: flex;
 }

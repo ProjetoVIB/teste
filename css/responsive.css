@@ -143,8 +143,16 @@
         justify-content: right;
     }
 
-    .row__owner{
+    .final__row>a {
         gap: 0.5rem;
+    }
+
+    .row__owner {
+        gap: 0.5rem;
+    }
+
+    .row__owner>p {
+        gap: 0.2rem;
     }
 
     .btn__img {
@@ -171,6 +179,13 @@
         margin: 0;
     }
 
+    .final__row {
+        width: 102%;
+        padding-left: 0rem;
+        padding-right: 0.5rem;
+        gap: 0.8rem;
+    }
+
     .links__btn {
         gap: 3.5rem;
     }
@@ -189,6 +204,13 @@
     .content {
         margin: 0;
     }
+
+    .final__row {
+        width: 100%;
+        padding-right: 0.2rem;
+        gap: 2rem;
+    }
+
 
     .links__btn {
         gap: 6.7rem;
@@ -261,6 +283,16 @@
     .top__btn {
         margin-top: -2.09rem;
         padding-right: 1.25rem;
+    }
+
+    .final__row {
+        width: 100%;
+        padding-right: 2rem;
+        gap: 12.6rem;
+    }
+
+    .final__row>a {
+        gap: 0.5rem;
     }
 
     .links__btn {
@@ -376,7 +408,7 @@
     }
 
     .final__row {
-        gap: 30.625rem;
+        gap: 17.4rem;
     }
 
     .btn__img {
@@ -415,6 +447,12 @@
         margin: 0;
 
     }
+
+    .final__row {
+        gap: 30.3rem;
+    }
+
+
 
     .links__btn {
         gap: 52.5rem;
