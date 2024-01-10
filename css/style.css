@@ -76,7 +76,8 @@ body,
     justify-content: center;
 }
 
-header {
+header,
+.final__row {
     display: flex;
     align-items: center;
 }
@@ -109,7 +110,9 @@ section>h1,
 .row>ul>li,
 .row__links>ul>li,
 .footer__links,
-.home__btn {
+.home__btn,
+.row__owner,
+.final__row>a {
     display: flex;
 }
 
@@ -506,4 +509,15 @@ footer {
 .row>p:last-of-type,
 .row__links>p:last-of-type {
     gap: 0.125rem;
+}
+
+.final__row {
+    justify-content: right;
+    gap: 17.625rem;
+    padding-right: 1.875rem;
+
+}
+
+.final__row>a {
+    gap: 0.3rem;
 }
