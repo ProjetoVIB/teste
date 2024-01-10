@@ -117,7 +117,8 @@ section>h1,
 .row__links>ul>li,
 .footer__links,
 .home__btn,
-.final__row>p {
+.final__row>p,
+.links__btn>.top__btn>a {
     display: flex;
 }
 
@@ -311,7 +312,10 @@ section>h1 {
 .links__btn>.top__btn>a>p {
     font-size: 0.813rem;
     color: black;
-    width: 5.3rem;
+}
+
+.links__btn>.top__btn>a>p:first-of-type{
+    width: 6rem;
 }
 
 .home__btn {
@@ -525,4 +529,9 @@ footer {
 .final__row>a {
     display: flex;
     gap: 0.5rem;
+}
+
+.final__row>a>p:last-of-type,
+.top__btn>a>p:last-of-type{
+    transform: rotate(270deg);
 }

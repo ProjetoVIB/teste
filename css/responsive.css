@@ -145,6 +145,10 @@
         gap: 0rem;
     }
 
+    .links__btn{
+        gap: 2rem;
+    }
+
     .top__btn {
         font-size: 0.8rem;
     }
