@@ -164,6 +164,10 @@
         margin: 0;
     }
 
+    .midias {
+        gap: 1.8rem;
+    }
+
     .links__btn {
         gap: 3.5rem;
     }
@@ -181,6 +185,10 @@
 
     .content {
         margin: 0;
+    }
+
+    .midias {
+        gap: 2.3rem;
     }
 
     .links__btn {
@@ -250,6 +258,10 @@
 
     iframe {
         width: 85%;
+    }
+
+    .midias {
+        gap: 5rem;
     }
 
     .top__btn {
@@ -404,6 +416,11 @@
 
     }
 
+    .row>ul,
+    .row__links>ul {
+        gap: 5rem;
+    }
+
     .links__btn {
         gap: 52.5rem;
     }
@@ -432,6 +449,16 @@
     .content,
     .main__container__links>.container>section>div {
         margin: 0;
+    }
+
+    .row>ul,
+    .row__links>ul {
+        gap: 10rem;
+    }
+
+    .row>ul>li,
+    .row__links>ul>li {
+        width: 16rem;
     }
 
     .links__btn {

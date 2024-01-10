@@ -415,7 +415,7 @@ footer {
 }
 
 .midias {
-    gap: 3.125rem;
+    gap: 1.2rem;
 }
 
 .footer .row {
@@ -473,13 +473,11 @@ footer {
     margin: 0% 1%;
 }
 
-.youtube__icon,
-.instagram__icon {
+.sc__icon {
     width: 2.5rem;
 }
 
-.youtube__icon:hover,
-.instagram__icon:hover {
+.sc__icon:hover {
     transform: scale(1.1);
 }
 
