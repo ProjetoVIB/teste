@@ -70,17 +70,19 @@ body,
 .top__btn__links,
 .map,
 .links__btn,
-.btn__img {
+.btn__img,
+.final__row,
+.footer .row ul,
+.footer__links .row__links ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header,
-.footer .row ul,
-.footer__links .row__links ul,
 .row:last-of-type>a,
-.row__links:last-of-type>a {
+.row__links:last-of-type>a,
+.final__row>a {
     display: flex;
     align-items: center;
 }
@@ -112,7 +114,8 @@ section>h1,
 .row>ul>li,
 .row__links>ul>li,
 .footer__links,
-.home__btn {
+.home__btn,
+.final__row>p {
     display: flex;
 }
 
@@ -511,7 +514,15 @@ footer {
     gap: 0.125rem;
 }
 
-.row:last-of-type>a,
-.row__links:last-of-type>a {
-    justify-content: right;
+.final__row {
+    gap: 2rem;
+}
+
+.final__row>p {
+    gap: 0.2rem;
+}
+
+.final__row>a {
+    display: flex;
+    gap: 0.5rem;
 }
