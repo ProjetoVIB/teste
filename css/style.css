@@ -76,8 +76,7 @@ body,
     justify-content: center;
 }
 
-header,
-.final__row {
+header {
     display: flex;
     align-items: center;
 }
@@ -110,11 +109,7 @@ section>h1,
 .row>ul>li,
 .row__links>ul>li,
 .footer__links,
-.home__btn,
-.row__owner,
-.row__owner>p,
-.row__owner>a,
-.final__row>a {
+.home__btn {
     display: flex;
 }
 
@@ -513,13 +508,8 @@ footer {
     gap: 0.125rem;
 }
 
-.final__row {
+.row:last-of-type>a{
+    display: flex;
+    align-items: center;
     justify-content: right;
-    gap: 17.625rem;
-    padding-right: 1.875rem;
-
-}
-
-.final__row>a {
-    gap: 0.3rem;
 }
