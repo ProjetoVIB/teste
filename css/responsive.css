@@ -362,7 +362,7 @@
         width: 49.375rem;
         flex-direction: row;
         height: 4.375rem;
-        gap: 4rem;
+        justify-content: space-between;
         padding: 0rem;
     }
 
