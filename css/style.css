@@ -460,6 +460,28 @@ footer {
     gap: 1.2rem;
 }
 
+.bi-youtube:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.bi-instagram:hover{
+    color: rgb(170, 0, 170);
+    transition: 0.5s;
+}
+
+.bi-facebook:hover{
+    color: rgb(33, 33, 253);
+}
+
+.bi-whatsapp:hover{
+    color: rgb(0, 199, 0);
+}
+
+.bi-tiktok:hover{
+    color: rgb(255, 0, 80);
+}
+
 .footer .row {
     width: 100%;
     color: white;
@@ -484,7 +506,7 @@ footer {
     transition: 0.5s;
 }
 
-.footer .row a:hover,
+.footer .row .row a:hover,
 .footer__links .row__links a:hover,
 .top__btn>a>p:hover {
     color: #ff0000;
