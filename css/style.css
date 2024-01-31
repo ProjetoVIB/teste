@@ -232,6 +232,8 @@ header {
     transition: 0.5s;
 }
 
+
+
 /*===========Configs do Container===========*/
 
 .container {
@@ -472,14 +474,17 @@ footer {
 
 .bi-facebook:hover{
     color: rgb(33, 33, 253);
+    transition: 0.5s;
 }
 
 .bi-whatsapp:hover{
     color: rgb(0, 199, 0);
+    transition: 0.5s;
 }
 
 .bi-tiktok:hover{
     color: rgb(255, 0, 80);
+    transition: 0.5s;
 }
 
 .footer .row {

@@ -27,3 +27,4 @@ function openMap() {
         map.style.display = 'block'
     }
 }
+
